@@ -60,7 +60,7 @@ include 'db_con.php';
             //select * from tablename 
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_array($result)) {
-                $imageURL = 'includes/room_cottages/' . $row["photo"];
+                $imageURL = './includes/room_cottage/' . $row["photo"];
                 $id = $row['CRid'];
                 $cottage_type = $row['cottage_type'];
                 $class = $row['class'];
