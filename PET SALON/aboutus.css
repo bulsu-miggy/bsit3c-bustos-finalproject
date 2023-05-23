@@ -1,0 +1,70 @@
+body{
+    background-color: #C4A484;
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    text-align: right;
+}
+header{
+    background-color: yellow;
+    padding: 20px;
+    box-shadow: 0 0 3px #000;
+}
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+header li a{
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+header li a:hover{
+    color: #2ecc71;
+}
+header li img{
+    width: 180px;
+    height: 100px;
+    float: left;
+    margin-top: -35px;
+}
+header li .paw{
+    width: 95px;
+    height: 90px;
+    margin-top: -35px;
+}
+.info{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+}
+.mission{
+    width: 800px;
+    height: 900px;
+}
+.head{
+    position: absolute;
+    top: 130px;
+    left: 180px;
+}
+.ceo{
+    width: 900px;
+    height: 1200px;
+}
+.pos{
+    position: absolute;
+    left: 590px;
+}
+.map{
+    position: absolute;
+    top: 900px;
+    left: 600px;
+}
+.mapa{
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+}

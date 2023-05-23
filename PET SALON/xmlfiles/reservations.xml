@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reservations SYSTEM "reservations.dtd">
+<reservations>
+  <reservation>
+    <name>Mark Maglasang</name>
+    <service>Bath_and_Blow_Dry</service>
+    <date_reserved>2023-05-23</date_reserved>
+    <time_reserved>12:01</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Michael phelps</name>
+    <service>Individual_Treatments</service>
+    <date_reserved>2023-06-02</date_reserved>
+    <time_reserved>23:04</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Gio andrade</name>
+    <service>Full_Groom</service>
+    <date_reserved>2023-05-31</date_reserved>
+    <time_reserved>13:02</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Mia alcantara</name>
+    <service>Bath_and_Blow_Dry</service>
+    <date_reserved>2023-06-05</date_reserved>
+    <time_reserved>11:04</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Naruto Uzumaki</name>
+    <service>Individual_Treatments</service>
+    <date_reserved>2023-05-25</date_reserved>
+    <time_reserved>12:03</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+</reservations>

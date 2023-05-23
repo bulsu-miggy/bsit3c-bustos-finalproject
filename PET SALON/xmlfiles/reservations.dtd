@@ -1,0 +1,8 @@
+<!ELEMENT reservations (reservation*)>
+<!ELEMENT reservation (name, service, date_reserved, time_reserved, lbs, individual)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT service (#PCDATA)>
+<!ELEMENT date_reserved (#PCDATA)>
+<!ELEMENT time_reserved (#PCDATA)>
+<!ELEMENT lbs (#PCDATA)>
+<!ELEMENT individual (#PCDATA)>

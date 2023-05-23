@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    text-align: right;
+}
+header{
+    background-color: yellow;
+    padding: 20px;
+    box-shadow: 0 0 3px #000;
+}
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+header li a{
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+header li a:hover{
+    color: #2ecc71;
+}
+header li img{
+    width: 180px;
+    height: 100px;
+    float: left;
+    margin-top: -35px;
+}
+header li .paw{
+    width: 95px;
+    height: 90px;
+    margin-top: -35px;
+}
+.owner{
+    width: 450px;
+    padding: 40px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 24px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.owner input[type = "text"], input[type = "email"], input[type = "password"]{
+    border-radius: 50px;
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+}
+.owner input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.owner input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.goldenret{
+    position: absolute;
+    left: 0%;
+    top: 95%;
+}
+.persia{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+.catqoute{
+    position: absolute;
+    top: 20%;
+}
+
+
