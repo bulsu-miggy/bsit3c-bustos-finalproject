@@ -41,4 +41,76 @@
     <lbs>Under_20lbs</lbs>
     <individual>None</individual>
   </reservation>
+  <reservation>
+    <name>John Paul Cruz</name>
+    <service>Individual_Treatments</service>
+    <date_reserved>2023-05-31</date_reserved>
+    <time_reserved>14:29</time_reserved>
+    <lbs>20-40lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Lance Monaco</name>
+    <service>Bath_and_Blow_Dry</service>
+    <date_reserved>2023-05-29</date_reserved>
+    <time_reserved>13:48</time_reserved>
+    <lbs>40-80lbs</lbs>
+    <individual>P 150 Blueberry and vanilla facial</individual>
+  </reservation>
+  <reservation>
+    <name>Mica Ramos</name>
+    <service>Individual_Treatments</service>
+    <date_reserved>2023-06-01</date_reserved>
+    <time_reserved>15:53</time_reserved>
+    <lbs>20-40lbs</lbs>
+    <individual>P 300 Feet and face tidy</individual>
+  </reservation>
+  <reservation>
+    <name>Milo ramos</name>
+    <service>Full_Groom</service>
+    <date_reserved>2023-05-23</date_reserved>
+    <time_reserved>23:54</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Patricia Mejia</name>
+    <service>Full_Groom</service>
+    <date_reserved>2023-06-01</date_reserved>
+    <time_reserved>23:59</time_reserved>
+    <lbs>20-40lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Gio Maximo</name>
+    <service>Full_Groom</service>
+    <date_reserved>2023-06-10</date_reserved>
+    <time_reserved>12:59</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Harold Batumbakal</name>
+    <service>Full_Groom</service>
+    <date_reserved>2023-06-09</date_reserved>
+    <time_reserved>00:02</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Bruno Mars</name>
+    <service>Individual_Treatments</service>
+    <date_reserved>2023-05-28</date_reserved>
+    <time_reserved>01:01</time_reserved>
+    <lbs>Under_20lbs</lbs>
+    <individual>None</individual>
+  </reservation>
+  <reservation>
+    <name>Jennie Ramos</name>
+    <service>Full_Groom</service>
+    <date_reserved>2023-05-06</date_reserved>
+    <time_reserved>13:05</time_reserved>
+    <lbs>20-40lbs</lbs>
+    <individual>P 150 Blueberry and vanilla facial</individual>
+  </reservation>
 </reservations>

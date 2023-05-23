@@ -24,8 +24,7 @@ function createXMLfile($reservationsArray)
 
     $dom->appendChild($root);
     $dom->save($filePath);
-
-    echo "XML created Successfully!\n";
+    echo '<script>alert("This document is valid!");</script>';
 
     validateXML($filePath);
 }
@@ -38,7 +37,7 @@ function validateXML($xml)
             $dom = new DOMDocument();
             $dom->load($xml);
             if ($dom->validate()) {
-                echo "This document is valid!\n";
+                echo " ";
             } else {
                 echo "This file is not valid. Check your XML!\n";
             }
