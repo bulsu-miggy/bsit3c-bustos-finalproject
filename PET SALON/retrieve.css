@@ -1,0 +1,191 @@
+body{
+    background-color: #C4A484;
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    text-align: right;
+}
+header{
+    background-color: yellow;
+    padding: 20px;
+    box-shadow: 0 0 3px #000;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+header li a{
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+    transition: .3s ease;
+}
+header li a:hover{
+    color: #137e1a;
+}
+header li img{
+    width: 180px;
+    height: 100px;
+    float: left;
+    margin-top: -35px;
+}
+header li .paw{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 7%;
+    left: 18%;
+}
+
+.info{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+    color: black;
+    font-size: 110px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Sofia';
+    font-size: 22px;
+    position: absolute;
+    left: 350px;
+    top:40px;
+}
+
+h2{
+ color:rgb(221, 97, 97);
+ font-size: 40px;
+ left:310px;
+
+}
+
+
+.btnLogout:hover{
+    background: #2ecc71
+}
+
+.txtstud{
+    color: white;
+    text-shadow: 2px 2px 4px #991975;
+    position: absolute;
+    text-align: center;
+    left: 350px;
+}
+
+.container{
+    background: rgb(151, 148, 44);
+    border-radius: 15px;
+    height: 750px;
+    width: 1100px;
+    position: absolute;
+    left: 150px;
+    top: 140px;
+}
+
+table, td{
+    color: white;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table{
+    background: rgba(5, 5, 5, 0.1);
+    font-family: Verdana, Geneva, Tahoma, cursive;
+    text-shadow: 2px 2px 4px #680e0e;
+    font-size: 12px;
+    font-weight: bold;
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btnAdd{
+    float: right;
+    background: rgb(235, 38, 38);
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.btnAdd:hover{
+    background: rgb(221, 97, 97);
+}
+
+.btnUpdate{
+    background: rgb(13, 179, 21);
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.btnUpdate:hover{
+    background: rgb(138, 173, 139);
+    
+}
+
+ .btndelete{
+    background: rgb(20, 104, 201);
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+ }
+
+ .btndelete:hover{
+    background: rgb(140, 164, 190);
+
+}
+.ads input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 20px;
+    width: 100px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.ads input[type = "submit"]:hover{
+    background: black;
+}

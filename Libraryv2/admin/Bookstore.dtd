@@ -1,0 +1,13 @@
+<!ELEMENT books (book+)>
+<!ELEMENT book (BookId, Section, Subject, Textbook, Volume, Year, Availability, Author, ISBN, Status, image)>
+<!ELEMENT BookId (#PCDATA)>
+<!ELEMENT Section (#PCDATA)>
+<!ELEMENT Subject (#PCDATA)>
+<!ELEMENT Textbook (#PCDATA)>
+<!ELEMENT Volume (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Availability (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
