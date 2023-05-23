@@ -1,0 +1,5 @@
+<!ELEMENT service (services+)>
+
+<!ELEMENT services (offers,prc)>
+<!ELEMENT offers (#PCDATA)>
+<!ELEMENT prc (#PCDATA)>
