@@ -1,3 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE rooms SYSTEM "room.dtd">
-<rooms><room category="room"><CRid>1</CRid><cottage_type>Standard Room</cottage_type><class>Regular 1</class><person>5</person><price>5000</price><photo type="image">slide3.jpg</photo></room><room category="room"><CRid>2</CRid><cottage_type>Deluxe Room</cottage_type><class>AirCondition 1</class><person>5</person><price>550</price><photo type="image">room2.jpg</photo></room><room category="room"><CRid>3</CRid><cottage_type>Suit</cottage_type><class>AirCondition 2</class><person>4</person><price>400</price><photo type="image">room3.png</photo></room><room category="cottage"><CRid>4</CRid><cottage_type>Bungalow</cottage_type><class>Regular 2</class><person>75</person><price>600</price><photo type="image">room1.png</photo></room><room category="cottage"><CRid>5</CRid><cottage_type>Standard Room</cottage_type><class>Regular 3</class><person>6</person><price>650</price><photo type="image">cottage2.jpg</photo></room><room category="cottage"><CRid>6</CRid><cottage_type>Nippa Hut</cottage_type><class>Regular 4</class><person>4</person><price>400</price><photo type="image">cottage1.jpg</photo></room></rooms>
+<rooms>
+    <room category="room">
+        <CRid>1</CRid>
+        <cottage_type>Super Executive</cottage_type>
+        <class>Regular 1</class>
+        <person>5</person>
+        <price>5000</price>
+        <photo type="image">slide3.jpg</photo>
+    </room>
+    <room category="room">
+        <CRid>2</CRid>
+        <cottage_type>Deluxe Room</cottage_type>
+        <class>AirCondition 1</class>
+        <person>5</person>
+        <price>550</price>
+        <photo type="image">room2.jpg</photo>
+    </room>
+    <room category="room">
+        <CRid>3</CRid>
+        <cottage_type>Suit</cottage_type>
+        <class>AirCondition 2</class>
+        <person>4</person>
+        <price>400</price>
+        <photo type="image">room3.png</photo>
+    </room>
+    <room category="cottage">
+        <CRid>4</CRid>
+        <cottage_type>Bungalow</cottage_type>
+        <class>Regular 2</class>
+        <person>75</person>
+        <price>600</price>
+        <photo type="image">room1.png</photo>
+    </room>
+    <room category="Room/Cottage">
+        <CRid>15</CRid>
+        <cottage_type>Super Executive</cottage_type>
+        <class>Aircondition</class>
+        <person>5</person>
+        <price>300</price>
+        <photo type="">cottage2.jpg</photo>
+    </room>
+    <room category="Room/Cottage">
+        <CRid>17</CRid>
+        <cottage_type>Super Executive</cottage_type>
+        <class>Aircondition</class>
+        <person>4</person>
+        <price>2000</price>
+        <photo type="">room1.png</photo>
+    </room>
+</rooms>

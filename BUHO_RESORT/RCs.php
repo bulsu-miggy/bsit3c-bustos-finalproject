@@ -1,6 +1,19 @@
 <?php
-include 'db_con.php';
+    include 'db_con.php';
+    if(isset($_GET['id'])){
+        $id = $_GET['id'];
+        $sql = "delete from cottage_room where CRid = $id ";
+        //delete from tablename where id = $id
+        $result = mysqli_query($conn, $sql);
+        if($result){
+            echo '<script>alert("Deleted Successfully")</script>';
+        }
+        else{
+            die(mysqli_error($conn));
+        }
+    }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,6 +66,7 @@ include 'db_con.php';
                 <th>Class</th>
                 <th>Max Person</th>
                 <th>Price</th>
+                <th><a href="createroom.php"><img src="./Photo/ui-add.svg" alt="add" width="20px" ></a></th>
             </tr>
 
             <?php
@@ -85,8 +99,10 @@ include 'db_con.php';
                         <?php echo $price ?>
                     </td>
                     <td>
-                        <button><a class="a" href="includes/updateroomCottage.php?id=<?php echo $id; ?>">
-                                Update</a></button>
+                        <a class="a" href="includes/updateroomCottage.php?id=<?php echo $id; ?>">
+                                ? &nbsp;</a>
+                        <a class="d" name="delete" href="RCs.php?id=<?php echo $id; ?>">
+                                -</a>
                     </td>
                 </tr>
 
