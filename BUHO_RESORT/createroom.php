@@ -124,7 +124,7 @@ if(isset($_POST["create_submit"]) && !empty($_FILES["file"]["name"])){
     <form action="" method="POST" enctype="multipart/form-data">
       <table>
         <tr>
-          <th colspan="2">UPDATE</th>
+          <th colspan="2">CREATE ROOM/COTTAGE</th>
         </tr>
         <tr>
           <td>Cottage Type:</td>
