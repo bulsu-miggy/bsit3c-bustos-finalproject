@@ -51,15 +51,6 @@ try {
         echo "DB Created Successfully.";
 
 
-        $data = [
-            ['Americano','HOT','Mixed Ristretto','150.00','americano.jpg'],
-            ['Iced Espresso','COLD','Mixed Ristretto','150.00','icedespresso.jfif'],
-            ['Iced Latte','COLD','Flat White','150.00','icedlatte.jpg'],
-            ['Caffe Latte','HOT','Cold Brew','150.00','caffelatte.jpg'],
-            ['Iced coffee','COLD','Affogato','150.00','iced_coffee.jpg'],
-            ['Coffee','HOT','Brewed Coffee','130.00','hot_coffee.webp']
-        ];
-
         $query_i = $conn->prepare("INSERT INTO products (
             name,
             category,
@@ -70,7 +61,8 @@ try {
 
         try {
             $conn->beginTransaction();
-            foreach ($data as $row)
+            
+            foreach ($conn as $row)
             {
                 $query_i->execute($row);
             }
@@ -95,3 +87,4 @@ try {
 } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
+?>
