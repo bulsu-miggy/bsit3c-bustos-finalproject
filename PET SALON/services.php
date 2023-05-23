@@ -6,6 +6,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <!--Stylesheet-->
     <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/reservationsScript.js"></script>
+
 </head>
 <body>
     <div class="menu">
@@ -44,6 +47,23 @@
                 <a href="reservation.php"><button class="book-now-button">Book now</button></a>
             </div>
         </div>
+        <div class="container my-5">
+        <div id="reservation-list" class="row">
+            <!-- Reservation items will be dynamically added here -->
+        </div>
+    </div>
+
+    <div id="display-template" class="col-4 pb-4 d-none service-items">
+       
+            <div class="img-book-cover"></div>
+            <div class="details">
+                <div class="details-sub">
+                    <h5 class="card-title"></h5>
+                </div>
+                <p class="card-text"></p>
+                <a href="reservation.php"><button class="book-now-button">Book now</button></a>
+            </div>
+    </div>
     </div>
 </body>
 </html>
