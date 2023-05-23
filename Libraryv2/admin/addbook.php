@@ -403,7 +403,9 @@ function generateXML()
 {
     global $conn;
 
-    $dom = new DOMDocument('1.0');
+    $dom = new DOMDocument('1.0', 'utf-8');
+    $dtd = new DOMImplementation();
+    $dom->appendChild($dtd->createDocumentType('books', '', 'Bookstore.dtd'));
     $dom->preserveWhiteSpace = false;
     $dom->formatOutput = true;
 
