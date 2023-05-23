@@ -1,0 +1,57 @@
+.user-container{
+    background-color: rgb(121, 120, 120);
+    width:75%;
+    height:585px;
+    float:right;
+}
+
+button{
+    border:none;
+    text-decoration:none;
+    background-color: rgb(0, 110, 255);
+    color: rgb(255, 255, 255);
+    margin: 5px;  
+    border-radius: 20px;
+    font-size: 10px;
+}
+.but{
+    font-size: 15px;
+    color:white;
+}
+th{
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid rgb(0, 0, 0);
+}
+.boxing{
+    background-color: white;
+    position:relative;
+    top:10px;
+    left:10px;
+    width:1000px;
+}
+.adduser_button{
+    width: 150px;
+    background-color: rgb(6, 168, 1);
+    float: right;
+    border:none;
+    border-radius: 20px;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+}   
+.downButton{
+    text-decoration:none;
+    background-color: rgb(253, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 5px;  
+    border:none;
+    border-radius: 20px;
+}
+.deleteButton{
+    text-decoration:none;
+    background-color: rgb(253, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 5px;  
+    border:none;
+    border-radius: 20px;
+}

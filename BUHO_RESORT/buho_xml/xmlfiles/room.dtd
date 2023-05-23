@@ -1,0 +1,11 @@
+<!ELEMENT rooms (room+)>
+<!ELEMENT room (CRid, cottage_type, class, person, price, photo)>
+<!ELEMENT CRid (#PCDATA)>
+<!ELEMENT cottage_type (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT person (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT photo (#PCDATA)>
+
+<!ATTLIST room category CDATA #REQUIRED>
+<!ATTLIST photo type CDATA #IMPLIED>
