@@ -1,0 +1,16 @@
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.img-book-cover {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.img-book-cover > * {
+    position: absolute;
+    top: 0;
+}
