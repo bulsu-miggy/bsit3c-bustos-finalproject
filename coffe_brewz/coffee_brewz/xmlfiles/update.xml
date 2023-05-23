@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE products SYSTEM "update.dtd">
+<products>
+  <product>
+    <id>51</id>
+    <name>Americano</name>
+    <category>HOT</category>
+    <details>Mixed Ristretto</details>
+    <price>150</price>
+    <image>americano.jpg</image>
+  </product>
+  <product>
+    <id>52</id>
+    <name>Iced Espresso</name>
+    <category>COLD</category>
+    <details>Mixed Ristretto</details>
+    <price>150</price>
+    <image>icedespresso.jfif</image>
+  </product>
+  <product>
+    <id>53</id>
+    <name>Iced Latte</name>
+    <category>COLD</category>
+    <details>Flat White</details>
+    <price>150</price>
+    <image>icedlatte.jpg</image>
+  </product>
+  <product>
+    <id>54</id>
+    <name>Caffe Latte</name>
+    <category>HOT</category>
+    <details>Cold Brew</details>
+    <price>150</price>
+    <image>caffelatte.jpg</image>
+  </product>
+  <product>
+    <id>55</id>
+    <name>Iced coffee</name>
+    <category>COLD</category>
+    <details>Affogato</details>
+    <price>150</price>
+    <image>iced_coffee.jpg</image>
+  </product>
+  <product>
+    <id>56</id>
+    <name>Coffee</name>
+    <category>HOT</category>
+    <details>Brewed Coffee</details>
+    <price>130</price>
+    <image>hot_coffee.webp</image>
+  </product>
+</products>
