@@ -1,0 +1,8 @@
+<!ELEMENT doctors (doctor+)>
+<!ELEMENT doctor (docid, docemail, docname, specialties)>
+<!ELEMENT docid (#PCDATA)>
+<!ELEMENT docemail (#PCDATA)>
+<!ELEMENT docname (#PCDATA)>
+<!ELEMENT specialties (#PCDATA)>
+
+<!ATTLIST doctor category CDATA #REQUIRED>
