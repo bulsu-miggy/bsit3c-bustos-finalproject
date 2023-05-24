@@ -1,0 +1,9 @@
+<!ELEMENT testing1 (product*)>
+<!ELEMENT product (product_id, category_id, product_name, product_image)>
+<!ELEMENT product_id (#PCDATA)>
+<!ELEMENT category_id (#PCDATA)>
+<!ELEMENT product_name (#PCDATA)>
+<!ELEMENT product_image (#PCDATA)>
+
+
+
