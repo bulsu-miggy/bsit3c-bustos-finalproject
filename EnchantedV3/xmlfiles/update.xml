@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE product SYSTEM "update.dtd">
+<product>
+  <product>
+    <product_id>1</product_id>
+    <category_id>1</category_id>
+    <product_name>small</product_name>
+    <product_image>smallcottage1.jpg</product_image>
+  </product>
+  <product>
+    <product_id>2</product_id>
+    <category_id>1</category_id>
+    <product_name>Medium Cottage</product_name>
+    <product_image>mediumcottage2.jpg</product_image>
+  </product>
+  <product>
+    <product_id>3</product_id>
+    <category_id>1</category_id>
+    <product_name>Large Cottage</product_name>
+    <product_image>largecottage1.jpg</product_image>
+  </product>
+  <product>
+    <product_id>4</product_id>
+    <category_id>1</category_id>
+    <product_name>Small Villa Cottage with pool</product_name>
+    <product_image>smallvillacottage1.jpg</product_image>
+  </product>
+  <product>
+    <product_id>7</product_id>
+    <category_id>2</category_id>
+    <product_name>For one person room</product_name>
+    <product_image>one1.jpg</product_image>
+  </product>
+  <product>
+    <product_id>8</product_id>
+    <category_id>2</category_id>
+    <product_name>For two person room</product_name>
+    <product_image>two1.jpg</product_image>
+  </product>
+  <product>
+    <product_id>9</product_id>
+    <category_id>2</category_id>
+    <product_name>For three person room</product_name>
+    <product_image>three1.jpg</product_image>
+  </product>
+  <product>
+    <product_id>10</product_id>
+    <category_id>2</category_id>
+    <product_name>For Luxury room</product_name>
+    <product_image>luxury1.jpg</product_image>
+  </product>
+</product>
