@@ -1,0 +1,9 @@
+<!ELEMENT strands (strand+)>
+<!ELEMENT strand (title,description,media)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT media (#PCDATA)>
+
+
+<!ATTLIST media type CDATA #IMPLIED>
+
